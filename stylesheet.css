@@ -126,7 +126,8 @@ button:hover,
 .flash-warning,
 .ajax-update-notice,
 .home-no-listings,
-.listing-author-contact-button {
+.listing-author-contact-button, 
+.noUi-handle {
   background: var( --lg-global-color-cultured-light );
 }
 
@@ -259,7 +260,8 @@ button,
 .listing-author-contact-button,
 .home-toolbar-show-filters-button,
 .profile-contact-link,
-.follow-button  {
+.follow-button, 
+.noUi-handle {
     border-radius: 100px !important;
 }
 
