@@ -266,6 +266,10 @@ button.SearchBar__mobileToggle__3pjye),
     padding-left: 18px;
 }
 
+form#stripe-account-form {
+    padding-bottom: 30px;
+}
+
 /* border radius */
 
 button,
@@ -392,7 +396,10 @@ textarea,
 .StripeElement,
 .listing-author-avatar-image,
 .initiate-transaction-totals,
-#listing_map_canvas  {
+#listing_map_canvas, 
+.status-select-button, 
+.account-settings .account-settings-row, 
+.paypal-wizard {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -414,7 +421,10 @@ input[type="text"],
 input[type="password"],
 input[type="number"],
 textarea,
-.StripeElement {
+.StripeElement, 
+.status-select-button, 
+.account-settings .account-settings-row, 
+.paypal-wizard {
     border: 1px solid var( --lg-global-color-alabaster );
 }
 
@@ -423,7 +433,8 @@ input[type="text"]:hover,
 input[type="password"]:hover,
 input[type="number"]:hover,
 textarea:hover,
-.StripeElement:hover {
+.StripeElement:hover, 
+.status-select-button:hover {
     border-color: var( --lg-global-color-primary );
 }
 
@@ -433,7 +444,8 @@ input[type="password"]:focus-visible,
 input[type="number"]:focus-visible,
 textarea:focus-visible,
 .StripeElement:focus-visible,
-.StripeElement--focus {
+.StripeElement--focus, 
+.status-select-button:focus-visible {
     outline: none;
     border-color: var( --lg-global-color-emerald );
     border-width: 2px;
