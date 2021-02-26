@@ -91,17 +91,27 @@ a.Logo span {
     top: 3px;
 }
 
-/* font awesome icons */
+.marketplace-lander-content ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 1.4em;
+}
 
-.marketplace-lander-content-description i.fal::before,
-.marketplace-lander-content-description i.fal::after,
-.marketplace-lander-content-description i.fas::before,
-.marketplace-lander-content-description i.fas::after,
-.marketplace-lander-content-description i.far::before,
-.marketplace-lander-content-description i.far::after,
-.marketplace-lander-content-description i.fad::before,
-.marketplace-lander-content-description i.fad::after {
-    margin: 0 7px 0 20px;
+@media screen and (max-width:767px) {
+  .marketplace-lander-content ul li {
+      margin: 10px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .marketplace-lander-content ul li {
+      display: inline-block;
+      margin: 15px;
+  }
+}
+
+.marketplace-lander-content ul li i {
+  margin-right: 10px;
 }
 
 /* GLOBAL */
