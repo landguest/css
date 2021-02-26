@@ -83,10 +83,10 @@ a.Logo span {
 
 /* font awesome icons */
 
-i.fal::before,
-i.fas::before,
-i.far::before,
-i.fad::before {
+.marketplace-lander-content-description i.fal::before,
+.marketplace-lander-content-description i.fas::before,
+.marketplace-lander-content-description i.far::before,
+.marketplace-lander-content-description i.fad::before {
     margin: 0 7px 0 20px;
 }
 
