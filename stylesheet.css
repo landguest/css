@@ -83,8 +83,10 @@ a.Logo span {
 
 /* font awesome icons */
 
-i.fal::before {
-    font-weight: 300;
+i.fal::before,
+i.fas::before,
+i.far::before,
+i.fad::before {
     margin: 0 7px 0 20px;
 }
 
