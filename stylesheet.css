@@ -10,7 +10,7 @@
   --lg-global-color-alabaster: #E0E2DB;
   --lg-global-color-cultured-light: #F0F0ED;
   --lg-global-color-cultured-lighter: #F5F4F3;
-  --lg-global-color-emerald: #F5F4F3;
+  --lg-global-color-emerald: #23CE6B;
   --lg-global-color-silver-sand: #C0C2BD;
   --lg-global-typography-primary-font-family: 'Manrope', sofia-pro, sans-serif !important;
 }
@@ -421,12 +421,7 @@ input[type="password"]:hover,
 input[type="number"]:hover,
 textarea:hover,
 .StripeElement:hover {
-    border-color: var( --lg-global-color-emerald );
-}
-
-:focus, 
-:focus-visible {
-    outline: none;
+    border-color: var( --lg-global-color-primary );
 }
 
 select:focus,
@@ -437,8 +432,13 @@ textarea:focus-visible,
 .StripeElement:focus-visible,
 .StripeElement--focus {
     outline: none;
-    border-color: var( --lg-global-color-primary );
+    border-color: var( --lg-global-color-emerald );
     border-width: 2px;
+}
+
+:focus, 
+:focus-visible {
+    outline: none;
 }
 
 /* containers */
