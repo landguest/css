@@ -11,6 +11,7 @@
   --lg-global-color-cultured-light: #F0F0ED;
   --lg-global-color-cultured-lighter: #F5F4F3;
   --lg-global-color-emerald: #F5F4F3;
+  --lg-global-color-silver-sand: #C0C2BD;
   --lg-global-typography-primary-font-family: 'Manrope', sofia-pro, sans-serif !important;
 }
 
@@ -119,6 +120,14 @@ button:hover,
 }
 
 .noUi-handle {
+  background: var( --lg-global-color-silver-sand );
+}
+
+.noUi-handle:hover {
+  background: var( --lg-global-color-accent );
+}
+
+.noUi-background {
   background: var( --lg-global-color-alabaster );
 }
 
