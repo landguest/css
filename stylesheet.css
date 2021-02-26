@@ -131,10 +131,6 @@ button:hover,
   background: var( --lg-global-color-primary );
 }
 
-.noUi-background {
-  background: var( --lg-global-color-cultured-light );
-}
-
 .home-toolbar-button-group-button,
 .home-toolbar-show-filters-button,
 .ajax-notice,
@@ -143,7 +139,10 @@ button:hover,
 .flash-warning,
 .ajax-update-notice,
 .home-no-listings,
-.listing-author-contact-button {
+.listing-author-contact-button, 
+.noUi-background, 
+.left-navi a.selected, 
+tbody tr:nth-child(odd) {
   background: var( --lg-global-color-cultured-light );
 }
 
