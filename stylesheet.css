@@ -78,7 +78,17 @@ a.Logo span {
 
 .marketplace-lander p {
     font-size: 1.25em;
+    font-weight: 500;
     max-width: 100%;
+}
+
+.marketplace-lander-content-description i {
+    font-size: 1.4em;
+}
+
+.marketplace-lander-content-description .fa-fish {
+    position: relative;
+    top: 3px;
 }
 
 /* font awesome icons */
