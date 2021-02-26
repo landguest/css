@@ -142,7 +142,8 @@ button:hover,
 .listing-author-contact-button, 
 .noUi-background, 
 .left-navi a.selected, 
-tbody tr:nth-child(odd) {
+tbody tr:nth-child(odd), 
+.account-settings .account-settings-row .account-settings-email-row-highlight {
   background: var( --lg-global-color-cultured-light );
 }
 
@@ -520,4 +521,15 @@ span#listing-title {
 .initiate-transaction-totals {
     margin-top: 20px;
     padding: 20px;
+}
+
+/* account settings */
+
+.account-settings-row {
+    padding: 15px;
+}
+
+.account-settings .account-settings-row .account-settings-icon {
+    top: 22px;
+    left: 27px;
 }
