@@ -97,9 +97,12 @@ body,
 .flash-warning,
 .ajax-update-notice,
 .home-no-listings,
-.listing-author-contact-button, 
-.home-fluid-thumbnail-grid-author {
+.listing-author-contact-button {
   background: #F0F0ED;
+}
+
+.home-fluid-thumbnail-grid-author {
+  background-color: #F0F0ED;
 }
 
 .listing-author-contact-button:hover {
@@ -155,7 +158,6 @@ body,
 }
 
 .home-fluid-thumbnail-grid-author {
-  background-color: #fff;
   height: 60px;
 }
 
