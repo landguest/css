@@ -15,8 +15,11 @@
   --lg-global-typography-primary-font-family: 'Manrope', sofia-pro, sans-serif !important;
 }
 
-html, body, * {
+html, body, *, h1, h2, h3, h4, h5, h6 {
   font-family: var( --lg-global-typography-primary-font-family );
+}
+
+html, body, * {
   font-weight: normal;
   font-style: normal;
 }
