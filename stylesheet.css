@@ -103,6 +103,21 @@ body,
   color: var( --lg-global-color-primary );
 }
 
+button:hover, 
+.button:hover, 
+.big-button:hover, 
+.inline-big-button:hover, 
+.tribe-actions a:hover, 
+.marketplace-lander button.action-button:hover, 
+.home-toolbar-button-group-button:hover, 
+.home-toolbar-show-filters-button:hover, 
+.enabled-book-button:hover, 
+.disabled-book-button:hover, 
+.message-book-button:hover, 
+.listing-shape-delete-button:hover {
+  background: var( --lg-global-color-primary );
+}
+
 .home-toolbar-button-group-button,
 .home-toolbar-show-filters-button,
 .ajax-notice,
@@ -115,6 +130,12 @@ body,
   background: var( --lg-global-color-cultured-light );
 }
 
+.home-toolbar-button-group-button.selected, 
+.home-toolbar-show-filters-button.selected {
+  background-color: var( --lg-global-color-primary );
+  border-color: var( --lg-global-color-primary );
+}
+
 .home-fluid-thumbnail-grid-author {
   background-color: var( --lg-global-color-cultured-light );
 }
@@ -125,7 +146,7 @@ body,
 }
 
 .row-with-divider {
-    border-bottom-color: var( --lg-global-color-cultured-light );
+  border-bottom-color: var( --lg-global-color-cultured-light );
 }
 
 .initiate-transaction-totals {
