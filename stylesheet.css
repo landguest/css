@@ -76,6 +76,23 @@ a.Logo span {
   }
 }
 
+/* font awesome icons */
+
+i.fal::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 300;
+    margin: 0 7px 0 20px;
+}
+
+.fal.fa-check::before {
+    content: "\f00c";
+}
+
 /* GLOBAL */
 
 input[type="checkbox"] {
