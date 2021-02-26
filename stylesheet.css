@@ -77,7 +77,7 @@ a.Logo span {
 }
 
 /* font awesome icons */
-
+/*
 i.fal::before {
     display: inline-block;
     font-style: normal;
@@ -92,7 +92,7 @@ i.fal::before {
 .fal.fa-check::before {
     content: "\f00c";
 }
-
+*/
 /* GLOBAL */
 
 input[type="checkbox"] {
