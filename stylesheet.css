@@ -1,15 +1,19 @@
 /* ABOVE THE FOLD */
 
-/* global presets */
+/* presets */
 
 --lg-global-color-primary: #252F39;
 --lg-global-color-secondary: #fff;
 --lg-global-color-text: #252F39;
 --lg-global-color-accent: #FF4852;
---e-global-typography-primary-font-family: 'Manrope', sofia-pro, sans-serif !important;
+--lg-global-color-alabaster: #E0E2DB;
+--lg-global-color-cultured-light: #F0F0ED;
+--lg-global-color-cultured-lighter: #F5F4F3;
+--lg-global-color-emerald: #F5F4F3;
+--lg-global-typography-primary-font-family: 'Manrope', sofia-pro, sans-serif !important;
 
 html, body, * {
-  font-family: 'Manrope', sofia-pro, sans-serif !important;
+  font-family: var( --lg-global-typography-primary-font-family );
   font-weight: normal;
   font-style: normal;
 }
@@ -85,7 +89,7 @@ input[type="checkbox"],
 .flash-error,
 .ajax-update-error {
     color: inherit;
-    background: #F0F0ED;
+    background: var( --lg-global-color-cultured-light );
 }
 
 /* colors */
@@ -94,7 +98,7 @@ body,
 .marketplace-lander .marketplace-title-header h1,
 .flash-text,
 .listing-price-amount {
-  color: #252F39;
+  color: var( --lg-global-color-primary );
 }
 
 .home-toolbar-button-group-button,
@@ -106,24 +110,24 @@ body,
 .ajax-update-notice,
 .home-no-listings,
 .listing-author-contact-button {
-  background: #F0F0ED;
+  background: var( --lg-global-color-cultured-light );
 }
 
 .home-fluid-thumbnail-grid-author {
-  background-color: #F0F0ED;
+  background-color: var( --lg-global-color-cultured-light );
 }
 
 .listing-author-contact-button:hover {
-  background: #252F39;
+  background: var( --lg-global-color-primary );
   color: #fff;
 }
 
 .row-with-divider {
-    border-bottom-color: #F0F0ED;
+    border-bottom-color: var( --lg-global-color-cultured-light );
 }
 
 .initiate-transaction-totals {
-  background-color: #F5F4F3;
+  background-color: var( --lg-global-color-cultured-lighter );
 }
 
 /* margin & padding */
@@ -185,7 +189,7 @@ body,
 /* box shadows */
 
 .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:hover > div {
-    box-shadow: 0px 7px 14px 0px rgba(45, 50, 55, 0.17);
+    box-shadow: 0px 7px 14px 0px var( --lg-global-color-alabaster );
 }
 
 .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:focus:hover > div, 
@@ -198,15 +202,15 @@ body,
 button,
 .button,
 button.enabled-book-button {
-    background-color: #FF4852;
+    background-color: var( --lg-global-color-accent );
 }
 
 .AddNewListingButton_background {
-    background-color: #FF4852 !important;
+    background-color: var( --lg-global-color-accent ) !important;
 }
 
 .google-login-button {
-    background: #FF4852;
+    background: var( --lg-global-color-accent );
 }
 
 .enabled-book-button .content {
@@ -365,7 +369,7 @@ input[type="password"],
 input[type="number"],
 textarea,
 .StripeElement {
-    border: 1px solid #E0E2DB;
+    border: 1px solid var( --lg-global-color-alabaster );
 }
 
 select:hover,
@@ -374,7 +378,7 @@ input[type="password"]:hover,
 input[type="number"]:hover,
 textarea:hover,
 .StripeElement:hover {
-    border-color: #5F6062;
+    border-color: var( --lg-global-color-emerald );
 }
 
 :focus, 
@@ -390,7 +394,7 @@ textarea:focus-visible,
 .StripeElement:focus-visible,
 .StripeElement--focus {
     outline: none;
-    border-color: #23CE6B;
+    border-color: var( --lg-global-color-primary );
     border-width: 2px;
 }
 
