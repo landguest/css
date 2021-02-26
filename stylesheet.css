@@ -1,16 +1,18 @@
 /* ABOVE THE FOLD */
 
-/* presets */
+/* declarations */
 
---lg-global-color-primary: #252F39;
---lg-global-color-secondary: #fff;
---lg-global-color-text: #252F39;
---lg-global-color-accent: #FF4852;
---lg-global-color-alabaster: #E0E2DB;
---lg-global-color-cultured-light: #F0F0ED;
---lg-global-color-cultured-lighter: #F5F4F3;
---lg-global-color-emerald: #F5F4F3;
---lg-global-typography-primary-font-family: 'Manrope', sofia-pro, sans-serif !important;
+:root {
+  --lg-global-color-primary: #252F39;
+  --lg-global-color-secondary: #fff;
+  --lg-global-color-text: #252F39;
+  --lg-global-color-accent: #FF4852;
+  --lg-global-color-alabaster: #E0E2DB;
+  --lg-global-color-cultured-light: #F0F0ED;
+  --lg-global-color-cultured-lighter: #F5F4F3;
+  --lg-global-color-emerald: #F5F4F3;
+  --lg-global-typography-primary-font-family: 'Manrope', sofia-pro, sans-serif !important;
+}
 
 html, body, * {
   font-family: var( --lg-global-typography-primary-font-family );
