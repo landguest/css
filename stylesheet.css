@@ -57,7 +57,7 @@ a.Logo span {
 
 .home-toolbar {
     border-bottom: transparent;
-    margin-bottom: 0.5em !important;
+    margin-bottom: 0.25em !important;
 }
 
 @media screen and (max-width:767px) {
@@ -144,6 +144,11 @@ body,
     transform: translateY(0px);
 }
 
+.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:focus:hover, 
+.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:active:hover {
+    transform: translateY(5px) !important;
+}
+
 @media screen and (max-width:767px) {
   .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid {
     margin-left: -0.75em;
@@ -179,8 +184,13 @@ body,
 
 /* box shadows */
 
-.home-fluid-thumbnail-grid-item:hover > div {
+.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:hover > div {
     box-shadow: 0px 7px 14px 0px rgba(45, 50, 55, 0.17);
+}
+
+.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:focus:hover > div, 
+.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:active:hover > div {
+    box-shadow: none;
 }
 
 /* buttons */
@@ -365,6 +375,11 @@ input[type="number"]:hover,
 textarea:hover,
 .StripeElement:hover {
     border-color: #5F6062;
+}
+
+:focus, 
+:focus-visible {
+    outline: none;
 }
 
 select:focus,
