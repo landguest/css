@@ -312,7 +312,8 @@ button,
 }
 
 .people-listings.fluid-thumbnail-grid-image-overlay,
-.people-listings.fluid-thumbnail-grid-image-image {
+.people-listings.fluid-thumbnail-grid-image-image, 
+.home-map div {
   -moz-border-radius: 20px !important;
   -webkit-border-radius: 20px !important;
   border-radius: 20px !important;
