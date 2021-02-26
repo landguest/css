@@ -84,7 +84,8 @@ select,
 input[type="checkbox"],
 .noUi-handle, 
 .custom-filter-checkbox-label:hover input,
-.custom-filter-checkbox-label-text:hover  {
+.custom-filter-checkbox-label-text:hover, 
+.recaptcha-checkbox-border {
     cursor: pointer;
 }
 
