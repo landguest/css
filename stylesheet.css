@@ -399,6 +399,11 @@ textarea,
     border-radius: 7px;
 }
 
+#map_bubble .bubble-image-container {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
 /* other borders */
 
 select,
