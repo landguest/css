@@ -82,15 +82,6 @@ a.Logo span {
     max-width: 100%;
 }
 
-.marketplace-lander-content-description i {
-    font-size: 1.4em;
-}
-
-.marketplace-lander-content-description .fa-fish {
-    position: relative;
-    top: 3px;
-}
-
 .marketplace-lander-content ul li {
     list-style: none;
     color: #fff;
@@ -112,6 +103,20 @@ a.Logo span {
 
 .marketplace-lander-content ul li i {
   margin-right: 10px;
+}
+
+.marketplace-lander-content ul li i {
+    font-size: 1.4em;
+}
+
+.marketplace-lander-content ul li .fa-fish {
+    position: relative;
+    top: 3px;
+}
+
+.marketplace-lander-content ul li .fa-deer {
+    position: relative;
+    top: -2px;
 }
 
 /* GLOBAL */
