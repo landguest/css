@@ -118,6 +118,10 @@ button:hover,
   background: var( --lg-global-color-primary );
 }
 
+.noUi-handle {
+  background: var( --lg-global-color-alabaster );
+}
+
 .home-toolbar-button-group-button,
 .home-toolbar-show-filters-button,
 .ajax-notice,
@@ -126,8 +130,7 @@ button:hover,
 .flash-warning,
 .ajax-update-notice,
 .home-no-listings,
-.listing-author-contact-button, 
-.noUi-handle {
+.listing-author-contact-button {
   background: var( --lg-global-color-cultured-light );
 }
 
