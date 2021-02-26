@@ -124,7 +124,7 @@ button:hover,
 }
 
 .noUi-handle:hover {
-  background: var( --lg-global-color-accent );
+  background: var( --lg-global-color-primary );
 }
 
 .noUi-background {
