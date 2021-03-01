@@ -68,12 +68,17 @@ a.Logo span {
 
 .home-toolbar {
     border-bottom: transparent;
-    margin-bottom: 0.25em !important;
 }
 
 @media screen and (max-width:767px) {
   .home-toolbar {
       margin-top: 0.5em !important;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .home-toolbar {
+      margin-bottom: 0.25em !important;
   }
 }
 
