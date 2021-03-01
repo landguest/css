@@ -242,6 +242,13 @@ tbody tr:nth-child(odd),
   .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:active:hover {
       transform: translateY(5px) !important;
   }
+  .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:hover > div {
+      box-shadow: 0px 7px 14px 0px var( --lg-global-color-alabaster );
+  }
+  .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:focus:hover > div, 
+  .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:active:hover > div {
+      box-shadow: none;
+  }
 }
 
 .listing-fb-like-button, .listing-tweet-button {
@@ -261,17 +268,6 @@ tbody tr:nth-child(odd),
 .home-fluid-thumbnail-grid-author-name {
     top: 10px;
     left: 57px;
-}
-
-/* box shadows */
-
-.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:hover > div {
-    box-shadow: 0px 7px 14px 0px var( --lg-global-color-alabaster );
-}
-
-.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:focus:hover > div, 
-.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:active:hover > div {
-    box-shadow: none;
 }
 
 /* buttons */
