@@ -27,7 +27,7 @@ html, body, * {
 /* header */
 
 a.Logo span {
-    font-family: 'Manrope', sofia-pro, sans-serif !important;
+    font-family: 'Manrope', sans-serif !important;
     font-style: normal;
     font-weight: 700;
     text-transform: none;
@@ -211,18 +211,6 @@ tbody tr:nth-child(odd),
 .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item {
     padding-right: 0.75em;
     padding-left: 0.75em;
-    position: relative;
-    transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
-    transform: translateY(5px);
-}
-
-.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:hover {
-    transform: translateY(0px);
-}
-
-.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:focus:hover, 
-.home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:active:hover {
-    transform: translateY(5px) !important;
 }
 
 @media screen and (max-width:767px) {
@@ -231,12 +219,24 @@ tbody tr:nth-child(odd),
   }
 }
 
-.home-fluid-thumbnail-grid-item > div {
-  -webkit-transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
-  transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
-  -o-transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+@media screen and (min-width:768px) {
+  .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item > div {
+    -webkit-transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+    -o-transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+  }
+  .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item {
+    position: relative;
+    transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+    transform: translateY(5px);
+  }
+  .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:hover {
+      transform: translateY(0px);
+  }
+  .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:focus:hover, 
+  .home-fluid-thumbnail-grid-narrow .home-fluid-thumbnail-grid-item:active:hover {
+      transform: translateY(5px) !important;
+  }
 }
 
 .listing-fb-like-button, .listing-tweet-button {
