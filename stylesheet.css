@@ -121,10 +121,14 @@ a.Logo span {
   margin-left: -15px;
 }
 
-/* filter bar */
+/* filter */
 
 #home_toolbar-select-share-type {
     display: none;
+}
+
+.custom-filter-options {
+    margin-bottom: 5px;
 }
 
 /* GLOBAL */
