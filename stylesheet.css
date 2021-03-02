@@ -547,6 +547,12 @@ span#listing-title {
     font-size: 1.1em;
 }
 
+.fluid-thumbnail-grid-image-quantity {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+
 .fluid-thumbnail-grid-image-title {
     font-size: 1.1em;
     font-weight: bold;
