@@ -156,7 +156,9 @@ input[type="checkbox"],
 
 .ajax-error,
 .flash-error,
-.ajax-update-error {
+.ajax-update-error, 
+.error, 
+label.error {
     color: inherit;
     background: var( --lg-global-color-cultured-light );
 }
