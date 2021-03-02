@@ -156,6 +156,10 @@ input[type="checkbox"],
     border-radius: 10px;
 }
 
+.flash-notification .flash-text a {
+    color: var( --lg-global-color-accent );
+}
+
 /* colors */
 
 body,
