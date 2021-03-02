@@ -14,7 +14,7 @@
   --lg-global-color-cultured-lighter: #F5F4F3;
   --lg-global-color-emerald: #23CE6B;
   --lg-global-color-silver-sand: #C0C2BD;
-  --lg-global-typography-primary-font-family: 'Manrope', sans-serif !important;
+  --lg-global-typography-primary-font-family: 'Manrope', 'Proxima Soft', sans-serif !important;
 }
 
 html, body, *, h1, h2, h3, h4, h5, h6, .footer__link {
