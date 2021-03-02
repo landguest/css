@@ -565,6 +565,10 @@ span#listing-title {
     padding-bottom: 10px;
 }
 
+.listing-description-content p {
+    margin-bottom: 25px;
+}
+
 /* transactions */
 
 .initiate-transaction-totals {
