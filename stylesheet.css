@@ -121,6 +121,12 @@ a.Logo span {
   margin-left: -15px;
 }
 
+/* filter bar */
+
+#home_toolbar-select-share-type {
+    display: none;
+}
+
 /* GLOBAL */
 
 input[type="checkbox"] {
