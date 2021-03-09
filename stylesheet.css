@@ -601,6 +601,8 @@ span#listing-title {
     margin-bottom: 25px;
 }
 
+/* social */
+
 .listing-social {
     display: inline-block;
     padding: 15px 17px 10px 10px;
@@ -611,7 +613,17 @@ span#listing-title {
 
 .listing-fb-like-button, 
 .listing-tweet-button {
-    margin-right: 0;
+  margin-right: 0;
+  display: inline-block;
+}
+
+.fb_iframe_widget {
+  display: inline;
+}
+
+.listing-tweet-button {
+  position: relative;
+  top: -2px;
 }
 
 /* transactions */
