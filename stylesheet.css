@@ -131,6 +131,10 @@ a.Logo span {
     margin-bottom: 5px;
 }
 
+.custom-filter-checkbox-label {
+    padding-left: 1px;
+}
+
 /* GLOBAL */
 
 input[type="checkbox"] {
