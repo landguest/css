@@ -582,6 +582,12 @@ span#listing-title {
     content: "\f6bb";
 }
 
+.home-categories-main:not([href="/?category=all"]):hover::before {
+    font-size: 1.2em;
+    margin-top: -2px;
+    margin-bottom: -1px;
+}
+
 .custom-filter-title,
 .profile-action-buttons-mobile {
     border-bottom: transparent;
