@@ -563,6 +563,9 @@ span#listing-title {
     font-family: "Font Awesome 5 Pro";
     font-weight: 300;
     margin-right: 6px;
+    -webkit-transition: all .1s;
+    -o-transition: all .1s;
+    transition: all .1s;
 }
 
 .home-categories-main[href="/?category=hunting"]::before {
