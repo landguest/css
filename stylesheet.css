@@ -539,9 +539,17 @@ span#listing-title {
     font-weight: bold;
 }
 
+.home-categories-main[href="/?category=all"], 
 .custom-filter-title {
     margin-bottom: 5px;
     font-size: 1.1em;
+}
+
+.home-categories-link, 
+.home-categories-main, 
+.home-categories-sub {
+    color: var( --lg-global-color-primary );
+    text-transform: none;
 }
 
 .custom-filter-title,
