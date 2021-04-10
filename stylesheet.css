@@ -552,6 +552,33 @@ span#listing-title {
     text-transform: none;
 }
 
+.home-categories-main[href="/?category=hunting"]::before, 
+.home-categories-main[href="/?category=fishing"]::before, 
+.home-categories-main[href="/?category=camping"]::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.home-categories-main[href="/?category=hunting"]::before {
+    content: "\f78e";
+    position: relative;
+    top: -1px;
+}
+
+.home-categories-main[href="/?category=fishing"]::before {
+    content: "\f578";
+}
+
+.home-categories-main[href="/?category=camping"]::before {
+    content: "\f6bb";
+}
+
 .custom-filter-title,
 .profile-action-buttons-mobile {
     border-bottom: transparent;
