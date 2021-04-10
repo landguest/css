@@ -679,6 +679,9 @@ span#listing-title {
   .toggle-menu a:last-child {
     border-radius: 0 0 20px 20px;
   }
+  .toggle-menu a {
+    color: var( --lg-global-color-primary );
+  }
 }
 
 /* social */
