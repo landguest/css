@@ -588,6 +588,10 @@ span#listing-title {
     margin-bottom: -1px;
 }
 
+.home-categories-main.selected::before {
+    font-weight: 900;
+}
+
 .custom-filter-title,
 .profile-action-buttons-mobile {
     border-bottom: transparent;
