@@ -669,11 +669,11 @@ span#listing-title {
   }
   .toggle.with-borders.toggled {
     border-radius: 20px 20px 0 0;
-    background: var( --lg-global-color-primary );
+    background: var( --lg-global-color-accent );
   }
   .toggle-menu {
-    background: var( --lg-global-color-accent );
-    border-color: var( --lg-global-color-accent ) !important;
+    background: var( --lg-global-color-cultured-light );
+    border-color: var( --lg-global-color-cultured-light ) !important;
   }
   .toggle-menu, 
   .toggle-menu a:last-child {
