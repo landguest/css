@@ -652,6 +652,35 @@ span#listing-title {
     margin-bottom: 25px;
 }
 
+/* mobile listing toggle */
+
+@media screen and (max-width:767px) {
+  .toggle.with-borders {
+      border: 0 solid var( --lg-global-color-cultured-light );
+      -moz-border-radius: 100px;
+      -webkit-border-radius: 100px;
+      border-radius: 100px;
+      background: var( --lg-global-color-cultured-light );
+      padding-left: 7px;
+      padding-right: 7px;
+  }
+  .toggle.with-borders.toggled {
+      border-radius: 20px 20px 0 0;
+  }
+  .toggle.with-borders.toggled {
+    border-radius: 20px 20px 0 0;
+    background: var( --lg-global-color-primary );
+  }
+  .toggle-menu {
+    background: var( --lg-global-color-accent );
+    border-color: var( --lg-global-color-accent ) !important;
+  }
+  .toggle-menu, 
+  .toggle-menu a:last-child {
+    border-radius: 0 0 20px 20px;
+  }
+}
+
 /* social */
 
 .listing-social {
