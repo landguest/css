@@ -534,11 +534,16 @@ textarea:focus-visible,
 
 /* listings */
 
-span#listing-title {
+.listing-title {
     font-size: 1.2em;
     font-weight: bold;
+}
+
+.listing-title, 
+.fluid-thumbnail-grid-image-title {
     text-transform: capitalize;
 }
+
 
 .home-categories-main[href="/?category=all"], 
 .custom-filter-title {
