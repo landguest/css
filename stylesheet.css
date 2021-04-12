@@ -537,6 +537,7 @@ textarea:focus-visible,
 span#listing-title {
     font-size: 1.2em;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 .home-categories-main[href="/?category=all"], 
