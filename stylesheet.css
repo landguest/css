@@ -545,7 +545,7 @@ textarea:focus-visible,
 }
 
 
-.home-categories-main, 
+.home-categories-main:nth-child(1), 
 .custom-filter-title {
     margin-bottom: 5px;
 }
