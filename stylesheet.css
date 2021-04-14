@@ -545,14 +545,12 @@ textarea:focus-visible,
 }
 
 
-.home-categories-main:nth-child(1), 
+.home-categories-main:nth-child(1).selected, 
 .custom-filter-title {
     margin-bottom: 5px;
 }
 
-.home-categories-main.selected, 
-.home-categories-main:hover, 
-.custom-filter-title {
+.home-categories-main:hover {
     font-size: 1.1em;
 }
 
