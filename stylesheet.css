@@ -604,6 +604,11 @@ textarea:focus-visible,
     margin-bottom: -1px;
 }
 
+.home-categories-main:not(.selected):hover::before, 
+.home-categories-main:not(.selected):hover {
+    color: var( --lg-global-color-accent );
+}
+
 .home-categories-main.selected::before {
     font-weight: 900;
 }
