@@ -594,6 +594,10 @@ textarea:focus-visible,
     margin-right: 7px;
 }
 
+.home-categories-main:nth-child(3).selected::before {
+    font-size: 1.08em;
+}
+
 .home-categories-main:nth-child(4)::before {
     content: "\f6bb";
 }
