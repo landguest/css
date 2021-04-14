@@ -598,7 +598,7 @@ textarea:focus-visible,
     content: "\f6bb";
 }
 
-.home-categories-main:hover::before {
+.home-categories-main:not(.selected):hover::before {
     font-size: 1.2em;
     margin-top: -2px;
     margin-bottom: -1px;
