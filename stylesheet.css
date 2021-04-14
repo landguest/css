@@ -544,16 +544,6 @@ textarea:focus-visible,
     text-transform: capitalize;
 }
 
-
-.home-categories-main:nth-child(1).selected, 
-.custom-filter-title {
-    margin-bottom: 5px;
-}
-
-.home-categories-main:hover {
-    font-size: 1.1em;
-}
-
 .home-categories-link, 
 .home-categories-main, 
 .home-categories-sub {
@@ -570,9 +560,25 @@ textarea:focus-visible,
     font-family: "Font Awesome 5 Pro";
     font-weight: 300;
     margin-right: 6px;
+}
+
+.home-categories-main, 
+.home-categories-main::before {
     -webkit-transition: all .1s;
     -o-transition: all .1s;
     transition: all .1s;
+}
+
+.home-categories-main:nth-child(1).selected, 
+.custom-filter-title {
+    margin-bottom: 5px;
+}
+
+.home-categories-link, 
+.home-categories-main, 
+.home-categories-sub {
+    color: var( --lg-global-color-primary );
+    text-transform: capitalize;
 }
 
 .home-categories-main:nth-child(2)::before {
