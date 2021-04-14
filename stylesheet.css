@@ -600,6 +600,7 @@ textarea:focus-visible,
 
 .home-categories-main:not(.selected):hover::before {
     font-size: 1.2em;
+    top: 1px;
     margin-top: -2px;
     margin-bottom: -1px;
 }
