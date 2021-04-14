@@ -103,7 +103,7 @@ a.Logo span {
 .marketplace-lander-content ul li {
     list-style: none;
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.25em;
 }
 
 @media screen and (max-width:767px) {
