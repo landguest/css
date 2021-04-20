@@ -137,6 +137,7 @@ a.Logo span {
 
 .custom-filter-checkbox-label {
     padding-left: 1px;
+    cursor: pointer;
 }
 
 /* GLOBAL */
