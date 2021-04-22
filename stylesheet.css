@@ -52,7 +52,7 @@ a.Logo span {
     background-image: -moz-linear-gradient(transparent 50%, rgba(0, 0, 0, 0.7) 100%);
     background-image: -webkit-linear-gradient(transparent 50%, rgba(0, 0, 0, 0.7) 100%);
     background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.7) 100%);
-    padding: 6.7em 1em;
+    padding: 5em 1em;
     text-align: center;
 }
 
