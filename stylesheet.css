@@ -607,23 +607,29 @@ textarea:focus-visible,
     content: "\f6bb";
 }
 
-.home-categories-main:nth-child(2):hover::before {
-    left: 1px;
-    margin-right: 10px;
-}
-
-.home-categories-main:nth-child(3):hover::before, 
-.home-categories-main:nth-child(4):hover::before {
-    left: -2px !important;
-    margin-right: 5px !important;
-}
-
 .home-categories-main:not(.selected):hover::before {
     font-size: 1.2em;
     position: relative;
     top: 1px;
     margin-top: -2px;
     margin-bottom: -1px;
+}
+
+.home-categories-main:nth-child(2):hover::before, 
+.home-categories-main:nth-child(3):hover::before, 
+.home-categories-main:nth-child(4):hover::before {
+    top: 1px;
+}
+
+.home-categories-main:nth-child(2):hover::before {
+    left: 0px;
+    margin-right: 10px;
+}
+
+.home-categories-main:nth-child(3):hover::before, 
+.home-categories-main:nth-child(4):hover::before {
+    left: -1px;
+    margin-right: 5px;
 }
 
 .home-categories-main.selected::before {
