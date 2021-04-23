@@ -565,7 +565,7 @@ textarea:focus-visible,
     -webkit-font-smoothing: antialiased;
     font-family: "Font Awesome 5 Pro";
     font-weight: 300;
-    margin-right: 6px;
+    position: relative;
 }
 
 .home-categories-main, 
@@ -589,7 +589,7 @@ textarea:focus-visible,
 
 .home-categories-main:nth-child(2)::before {
     content: "\f140";
-    position: relative;
+    top: 1px;
     left: 3px;
     margin-right: 11px;
 }
@@ -605,6 +605,7 @@ textarea:focus-visible,
 
 .home-categories-main:nth-child(4)::before {
     content: "\f6bb";
+    margin-right: 6px;
 }
 
 .home-categories-main:not(.selected):hover::before {
@@ -615,21 +616,17 @@ textarea:focus-visible,
     margin-bottom: -1px;
 }
 
-.home-categories-main:nth-child(2):hover::before, 
-.home-categories-main:nth-child(3):hover::before, 
-.home-categories-main:nth-child(4):hover::before {
+.home-categories-main:hover::before {
     top: 2px;
 }
 
 .home-categories-main:nth-child(2):hover::before {
     left: 2px;
-    margin-right: 11px;
 }
 
 .home-categories-main:nth-child(3):hover::before, 
 .home-categories-main:nth-child(4):hover::before {
     left: -1px;
-    margin-right: 6px;
 }
 
 .home-categories-main.selected::before {
