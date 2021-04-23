@@ -620,12 +620,12 @@ textarea:focus-visible,
     top: 2px !important;
 }
 
-.home-categories-main:nth-child(2):hover::before {
+.home-categories-main:nth-child(2):not(.selected):hover::before {
     left: 2px;
 }
 
-.home-categories-main:nth-child(3):hover::before, 
-.home-categories-main:nth-child(4):hover::before {
+.home-categories-main:nth-child(3):not(.selected):hover::before, 
+.home-categories-main:nth-child(4):not(.selected):hover::before {
     left: -1px;
 }
 
