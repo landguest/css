@@ -618,18 +618,18 @@ textarea:focus-visible,
 .home-categories-main:nth-child(2):hover::before, 
 .home-categories-main:nth-child(3):hover::before, 
 .home-categories-main:nth-child(4):hover::before {
-    top: 1px;
+    top: 2px;
 }
 
 .home-categories-main:nth-child(2):hover::before {
-    left: 0px;
-    margin-right: 10px;
+    left: 2px;
+    margin-right: 11px;
 }
 
 .home-categories-main:nth-child(3):hover::before, 
 .home-categories-main:nth-child(4):hover::before {
     left: -1px;
-    margin-right: 5px;
+    margin-right: 6px;
 }
 
 .home-categories-main.selected::before {
