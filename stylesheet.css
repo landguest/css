@@ -607,6 +607,17 @@ textarea:focus-visible,
     content: "\f6bb";
 }
 
+.home-categories-main:nth-child(2):hover::before {
+    left: 1px;
+    margin-right: 10px;
+}
+
+.home-categories-main:nth-child(3):hover::before, 
+.home-categories-main:nth-child(4):hover::before {
+    left: -2px !important;
+    margin-right: 5px !important;
+}
+
 .home-categories-main:not(.selected):hover::before {
     font-size: 1.2em;
     position: relative;
