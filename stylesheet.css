@@ -616,8 +616,8 @@ textarea:focus-visible,
     margin-bottom: -1px;
 }
 
-.home-categories-main:hover::before {
-    top: 2px;
+.home-categories-main:not(.selected):hover::before {
+    top: 2px !important;
 }
 
 .home-categories-main:nth-child(2):hover::before {
