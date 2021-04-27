@@ -540,8 +540,13 @@ textarea:focus-visible,
 
 /* listings filter */
 
-.home-toolbar-button-group-button {
+.home-toolbar-button-group-button, 
+.home-toolbar-show-filters-button {
   height: 2.8em;
+}
+
+.home-toolbar-show-filters-button {
+  padding-top: 0.1em;
 }
 
 /* start font awesome */
