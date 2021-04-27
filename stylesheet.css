@@ -538,6 +538,39 @@ textarea:focus-visible,
     background: rgb(255, 255, 255);
 }
 
+/* listings filter */
+
+/* start font awesome */
+
+.ss-thumbnails:before, 
+.ss-thumbnails.right:after, 
+.ss-list:before, 
+.ss-list.right:after, 
+.ss-maplocation:before, 
+.ss-maplocation.right:after {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.ss-thumbnails:before, 
+.ss-thumbnails.right:after {
+    content: '\f58d';
+}
+
+.ss-list:before, 
+.ss-list.right:after {
+    content: '\f03a';
+}
+
+.ss-maplocation:before, 
+.ss-maplocation.right:after {
+    content: '\f5a0';
+}
+
+/* end font awesome */
+
 /* listings */
 
 .listing-title {
